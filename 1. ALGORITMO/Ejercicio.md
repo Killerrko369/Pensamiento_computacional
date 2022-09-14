@@ -1,12 +1,26 @@
 ### REALIZA UN ALGORITMO SOBRE ALGUNA ACTIVIDAD EN TU VIDA COTIDIANA.
 
-    TU RESPUETA AQUI
+Actividad: Jugar basquetbol
+    
+    1. Inicio
+    2. Entrada (tenis, calcetines, short, playera, balon de basquetbol, cancha, bomba de aire)
+    3. Nos vestimos con la playera y el short
+    4. Nos ponemos los calcetines
+    5. Nos ponemos los tenis
+    6. Revisamos si el balon tiene aire, en caso de no tener, llenar el balon de aire con la bomba de aire
+    7. Nos dirigimos a la cancha
+    8. Fin
 
 
 
 ### DESARROLLA UN ALGORITMO QUE CALCULE LA EDAD DE UNA PERSONA CON BASE A LA OBTENCION DE SU FECHA DE NACIMIENTO.
 
-    TU RESPUESTA AQUI
+    1. Inicio
+    2. Declarar (anac, aact, edad)
+    3. Ingresar valores (anac, aact)
+    4. edad = aact - anac
+    5. Mostrar (edad)
+    6. Fin
 
 
 
