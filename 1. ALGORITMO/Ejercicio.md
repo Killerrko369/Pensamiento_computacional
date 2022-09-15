@@ -31,6 +31,6 @@ Actividad: Jugar basquetbol
     2. Declarar (precioinic, precioact, porcinc, diferenciaprecio)
     3. Ingresar valores (precioinic, precioact)
     4. diferenciaprecio = precioact - precioinic
-    5. porcinc = (diferenciaprecio / precioact) * 100
+    5. porcinc = (diferenciaprecio / precioinic) * 100
     6. Mostrar (precioinic, precioact, porcinc)
     7. Fin
