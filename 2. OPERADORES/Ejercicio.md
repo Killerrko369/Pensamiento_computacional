@@ -86,5 +86,5 @@ Reto. Evalúa las siguientes expresiones a la derecha (FALSO O VERDADERO).
 1) (45<120 OR 12<120) = True
 2) (6! =6) && (12>22)) = False
 3) ¬ (128<145 && 12>9) = False
-4) “Daniela”< >”DANIELA” = False
+4) “Daniela”< >”DANIELA” = True
 5) 10*20< >210 = True
