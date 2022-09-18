@@ -36,6 +36,7 @@ Actividad: Jugar basquetbol
     7. Fin
 
 ////////////////////////////////////////////////////////////////////////////////////////
+    
     1. Inicio
     2. Declarar precioinic(float)
                 precioact(float)
