@@ -31,6 +31,22 @@ Actividad: Jugar basquetbol
     2. Declarar (precioinic, precioact, porcinc, diferenciaprecio)
     3. Ingresar valores (precioinic, precioact)
     4. diferenciaprecio = precioact - precioinic
-    5. porcinc = (diferenciaprecio / precioinic) * 100
+    5. porcinc = (diferenciaprecio / precioact) * 100
     6. Mostrar (precioinic, precioact, porcinc)
     7. Fin
+
+////////////////////////////////////////////////////////////////////////////////////////
+    1. Inicio
+    2. Declarar precioinic(float)
+                precioact(float)
+                porcinc(float)
+                diferenciaprecio(float)
+    3. Mostrar "Ingresa precio inicial"
+    4. Asignar precioinic
+    5. Mostrar "Ingresa precio actual"
+    6. Asignar precioact
+    7. diferenciaprecio = precioact - precioinic
+    8. porcinc = (diferenciaprecio * 100) / precioact
+    9. Mostrar "El porcentaje de incremento del producto es de ", porcinc, "%"
+    10. Fin
+    
