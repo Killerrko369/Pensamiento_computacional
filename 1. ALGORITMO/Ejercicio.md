@@ -42,9 +42,9 @@ Actividad: Jugar basquetbol
                 precioact(float)
                 porcinc(float)
                 diferenciaprecio(float)
-    3. Mostrar "Ingresa precio inicial"
+    3. Mostrar "Ingresa precio inicial: "
     4. Asignar precioinic
-    5. Mostrar "Ingresa precio actual"
+    5. Mostrar "Ingresa precio actual: "
     6. Asignar precioact
     7. diferenciaprecio = precioact - precioinic
     8. porcinc = (diferenciaprecio * 100) / precioact
