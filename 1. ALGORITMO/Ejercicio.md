@@ -22,7 +22,19 @@ Actividad: Jugar basquetbol
     5. Mostrar (edad)
     6. Fin
 
+///////////////////////////////////////////////////////////////////////////////////////
 
+    1. Inicio
+    2. Declarar año_nac (int)
+                año_actual (int)
+                edad (int)
+    3. Mostrar ("Dime tu año de nacimiento: ")
+    4. Asignar año_nac
+    5. Mostrar ("Dime el año en el que estamos: ")
+    6. Asignar año_actual
+    7. edad = año_actual - año_nac
+    8. Mostrar ("Tienes ", edad, " años")
+    9. Fin
 
 
 ###  Realice un algoritmo que resuelva la siguiente situación: un producto tenía un precio inicial que debe solicitarse y ahora tiene un nuevo valor, mayor, que también deberá pedirse, determine el porcentaje de incremento del producto. 
