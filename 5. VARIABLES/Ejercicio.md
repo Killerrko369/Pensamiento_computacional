@@ -27,7 +27,10 @@ tienes?
 
 Realiza un algoritmo que calcule el promedio de un alumno el cual tiene cuatro calificaciones, una por periodo, de cada materia.
 
-      TU ALGORITMO AQUI
+      1. Inicio
+      2. Declarar Cal1, Cal2, Cal3, Cal4 (int)
+                  prom (float)
+      3. 
       
       
 ## EJERCICIO 3
