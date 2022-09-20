@@ -36,6 +36,21 @@ Actividad: Jugar basquetbol
     8. Mostrar ("Tienes ", edad, " años")
     9. Fin
 
+///////////////////////////////////////////////////////////////////////////////////////
+
+PSeInt
+
+    Algoritmo sin_titulo
+	    año_nac<-0
+	    año_act<-0
+	    edad<-0
+	    Escribir "Ingrese su año de nacimiento: "
+	    Leer año_nac
+	    Escribir "Ingrese el año actual: "
+	    Leer año_act
+	    edad = año_act - año_nac
+	    Escribir "Usted tiene ", edad, " años"
+    FinAlgoritmo
 
 ###  Realice un algoritmo que resuelva la siguiente situación: un producto tenía un precio inicial que debe solicitarse y ahora tiene un nuevo valor, mayor, que también deberá pedirse, determine el porcentaje de incremento del producto. 
 
