@@ -52,6 +52,23 @@ PSeInt
 	    Escribir "Usted tiene ", edad, " años"
     FinAlgoritmo
 
+//////////////////////////////////////////////////////////////////////////////////////////
+
+PSeInt version 2
+
+	Algoritmo sin_titulo
+		año_nac<-0
+		año_act<-0
+		edad<-0
+		Escribir "Ingrese su año de nacimiento: "
+		Leer año_nac
+		Escribir "Ingrese el año actual: "
+		Leer año_act
+		edad = año_act - año_nac
+		Escribir "Debido a que estamos en el año ", año_act, " y usted nacio en el año ", año_nac, ", entonces usted tiene ", edad, " años"
+	FinAlgoritmo
+	
+	
 ###  Realice un algoritmo que resuelva la siguiente situación: un producto tenía un precio inicial que debe solicitarse y ahora tiene un nuevo valor, mayor, que también deberá pedirse, determine el porcentaje de incremento del producto. 
 
     1. Inicio
