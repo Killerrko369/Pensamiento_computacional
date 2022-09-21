@@ -31,14 +31,14 @@ Realiza un algoritmo que calcule el promedio de un alumno el cual tiene cuatro c
       2. Declarar cal1, cal2, cal3, cal4 (int)
                   prom (float)
       3. Mostrar ("Ingrese la primera calificación: ")
-      4. Asignar Cal1
+      4. Asignar cal1
       5. Mostrar ("Ingrese la segunda calificación: ")
-      6. Asignar Cal2
+      6. Asignar cal2
       7. Mostrar ("Ingrese la tercer calificación: ")
-      8. Asignar Cal3
+      8. Asignar cal3
       9. Mostrar ("Ingrese la cuarta calificación: ")
-      10. Asignar Cal4
-      11. prom = (Cal1 + Cal2 + Cal3 + Cal4) / 4
+      10. Asignar cal4
+      11. prom = (cal1 + cal2 + cal3 + cal4) / 4
       12. Mostrar ("La primera calificación es de: ", cal1)
       13. Mostrar ("La segunda calificación es de: ", cal2)
       14. Mostrar ("La tercera calificación es de: ", cal3)
