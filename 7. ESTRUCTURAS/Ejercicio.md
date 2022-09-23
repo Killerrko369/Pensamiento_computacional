@@ -155,6 +155,8 @@
 
         DIAGRAMA DE FLUJO
 	
-	
+![image](https://user-images.githubusercontent.com/113545645/192010878-030f2fbf-8140-4506-86e6-b0aa5115685d.png)
+
 	PSEINT Imagen
+	
 ![image](https://user-images.githubusercontent.com/113545645/192009584-9f6298c3-aca6-46e4-aaf4-490fc01a2380.png)
