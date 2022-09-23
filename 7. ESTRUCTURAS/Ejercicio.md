@@ -140,4 +140,21 @@
 	   Fin Si
 	6. Fin
 
+        PSEINT Escrito
+	
+	Algoritmo sin_titulo
+		num<-0
+		Escribir "Ingrese un número: "
+		Leer num
+		Si num mod 2 == 0 Entonces
+			Escribir "El número ", num, " es par"
+		SiNo
+			Escribir "El número ", num, " es impar"
+		Fin Si
+	FinAlgoritmo
 
+        DIAGRAMA DE FLUJO
+	
+	
+	PSEINT Imagen
+![image](https://user-images.githubusercontent.com/113545645/192009584-9f6298c3-aca6-46e4-aaf4-490fc01a2380.png)
