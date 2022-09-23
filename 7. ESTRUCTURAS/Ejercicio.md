@@ -127,4 +127,17 @@
         
 3. Realizar un algoritmo y diagrama de flujo para un programa que solicite un número e indique si es par o impar.
 
-        TU ALGORITMO Y DIAGRAMA AQUI
+        ALGORITMO
+	
+	1. Inicio
+	2. Declarar num (int)
+	3. Mostrar ("Ingrese un número: ")
+	4. Asignar num
+	5. Si mod num == 0 Entonces
+	      Mostrar ("El número ", num, " es par")
+	   Si no
+	      Mostrar ("El número ", num, " es impar")
+	   Fin Si
+	6. Fin
+
+
