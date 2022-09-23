@@ -133,7 +133,7 @@
 	2. Declarar num (int)
 	3. Mostrar ("Ingrese un número: ")
 	4. Asignar num
-	5. Si mod num == 0 Entonces
+	5. Si num mod 2 == 0 Entonces
 	      Mostrar ("El número ", num, " es par")
 	   Si no
 	      Mostrar ("El número ", num, " es impar")
