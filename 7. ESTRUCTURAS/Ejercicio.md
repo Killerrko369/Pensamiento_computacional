@@ -205,5 +205,6 @@
 ![image](https://user-images.githubusercontent.com/113545645/192593262-dac54d43-d430-431e-9bd7-02da66af6397.png)
 
 	DIAGRAMA DE FLUJO
-![image](https://user-images.githubusercontent.com/113545645/192595636-4e8985ee-4123-4b18-8ac3-f2330d53f37e.png)
+![image](https://user-images.githubusercontent.com/113545645/192596792-720cbace-bdb9-4b85-abaa-486d671b00b0.png)
+
 
