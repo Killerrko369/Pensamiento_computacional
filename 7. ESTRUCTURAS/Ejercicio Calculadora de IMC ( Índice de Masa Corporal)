@@ -46,7 +46,7 @@ PSEINT Escrito
       Escribir "Por favor ingrese su estatura (metros): "
       Leer altura
       Si altura > 0.30 y altura < 2.50 Entonces
-        IMC = (peso / altura ) / altura
+        IMC = peso / (altura * altura)
         Si IMC <= 18.5 Entonces
           opc = 1
         SiNo
