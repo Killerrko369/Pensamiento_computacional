@@ -1,4 +1,86 @@
 ALGORITMO
 
-1. Inicio
-2. Declarar peso(float
+  1. Inicio
+  2. Declarar peso (float)
+              altura (float)
+              IMC (float)
+              nombre (string)
+  3. Mostrar ("Ingrese su nombre: ")
+  4. Asignar nombre
+  5. Mostrar ("Por favor ingrese su peso (kg): ")
+  6. Asignar peso
+  7. Si peso > 1 && peso < 250 Entonces:
+       Mostrar ("Por favor ingrese su estatura (metros): ")
+       Asignar altura
+       Si altura > 0.30 && altura < 2.50 Entonces
+         IMC = peso / altura
+       Si No
+         Mostrar ("Dato erroneo")
+     Si No
+       Mostrar ("Dato erroneo")
+       Fin Si
+     Fin Si
+  8. En caso de IMC Hacer
+       Caso <= 18.5 ("Hola ", nombre, ", tu Índice de Masa Corporal (IMC) es de ", IMC, ", por lo que estás bajo de peso")
+       Caso >=18.6 && <=24.9 ("Hola ", nombre, ", tu Índice de Masa Corporal (IMC) es de ", IMC, ", por lo que estás en peso")
+       Caso >=25 && <=29.9 ("Hola ", nombre, ", tu Índice de Masa Corporal (IMC) es de ", IMC, ", por lo que estás con sobrepeso")
+       Caso >= 30 ("Hola ", nombre, ", tu Índice de Masa Corporal (IMC) es de ", IMC, ", por lo que estás con obesidad")
+       Si No
+         Mostrar ("Dato erroneo")
+     Fin de En caso de
+  9. Fin
+
+PSEINT Escrito
+
+  Algoritmo sin_titulo
+    peso<-0
+    altura<-0
+    IMC<-0
+    nombre<-" "
+    opc<-0
+    Escribir "Ingrese su nombre: "
+    Leer nombre
+    Escribir "Por favor ingrese su peso (kg): "
+    Leer peso
+    Si peso > 1 y peso < 250  Entonces
+      Escribir "Por favor ingrese su estatura (metros): "
+      Leer altura
+      Si altura > 0.30 y altura < 2.50 Entonces
+        IMC = (peso / altura ) / altura
+        Si IMC <= 18.5 Entonces
+          opc = 1
+        SiNo
+          Si IMC >= 18.6 y IMC <= 24.9 Entonces
+            opc = 2
+          SiNo
+            Si IMC >= 25 y IMC <= 29.9 Entonces
+              opc = 3
+            SiNo
+              Si IMC >= 30 Entonces
+                opc = 4
+              SiNo
+                opc = 0
+              Fin Si
+            Fin Si
+          Fin Si
+        Fin Si
+        Segun opc Hacer
+          1:
+            Escribir "Hola ", nombre, ", tu Índice de Masa Corporal (IMC) es de ", IMC, ", por lo que estás bajo de peso"
+          2:
+            Escribir "Hola ", nombre, ", tu Índice de Masa Corporal (IMC) es de ", IMC, ", por lo que estás en peso"
+          3:
+            Escribir "Hola ", nombre, ", tu Índice de Masa Corporal (IMC) es de ", IMC, ", por lo que estás con sobrepeso"
+          4:
+            Escribir "Hola ", nombre, ", tu Índice de Masa Corporal (IMC) es de ", IMC, ", por lo que estás con obesidad"
+          De Otro Modo:
+            Escribir "Dato erroneo"
+        Fin Segun
+      SiNo
+        Escribir "Dato erroneo"
+      Fin Si
+    SiNo
+      Escribir "Dato erroneo"
+    Fin Si
+  FinAlgoritmo
+
