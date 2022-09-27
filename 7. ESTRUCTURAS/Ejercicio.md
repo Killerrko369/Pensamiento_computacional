@@ -160,3 +160,50 @@
 	PSEINT Imagen
 	
 ![image](https://user-images.githubusercontent.com/113545645/192009584-9f6298c3-aca6-46e4-aaf4-490fc01a2380.png)
+
+4. Realizar un algoritmo y diagrama de flujo para un programa que solicite una letra e indique si es vocal o no
+
+	ALGORTIMO
+	
+		1. Inicio
+		2. Declarar vocal (char)
+		3. Mostrar ("Ingrese una letra: ")
+		4. Asignar vocal
+		5. En caso de vocal Hacer
+		     CASO "a" || "A" Mostrar ("La letra ", vocal, " es vocal")
+		     CASO "e" || "E" Mostrar ("La letra ", vocal, " es vocal")
+		     CASO "i" || "I" Mostrar ("La letra ", vocal, " es vocal")
+		     CASO "o" || "O" Mostrar ("La letra ", vocal, " es vocal")
+		     CASO "u" || "U" Mostrar ("La letra ", vocal, " es vocal")
+		     Si No
+		       Mostrar ("La letra ", vocal, " no es vocal")
+		   Fin de En Caso
+		6. Fin
+	
+        PSEINT Escrito
+	
+		Algoritmo sin_titulo
+		vocal<-" "
+		Escribir "Ingrese una letra: "
+		Leer vocal
+		Segun vocal Hacer
+			"a" o "A":
+				Escribir "La letra ", vocal, " es vocal"
+			"e" o "E":
+				Escribir "La letra ", vocal, " es vocal"
+			"i" o "I":
+				Escribir "La letra ", vocal, " es vocal"
+			"o" o "O":
+				Escribir "La letra ", vocal, " es vocal"
+			"u" o "U":
+				Escribir "La letra ", vocal, " es vocal"
+			De Otro Modo:
+				Escribir "La letra ", vocal, " no es vocal"
+			Fin Segun
+		FinAlgoritmo
+	
+![image](https://user-images.githubusercontent.com/113545645/192593262-dac54d43-d430-431e-9bd7-02da66af6397.png)
+
+	DIAGRAMA DE FLUJO
+![image](https://user-images.githubusercontent.com/113545645/192595636-4e8985ee-4123-4b18-8ac3-f2330d53f37e.png)
+
