@@ -142,16 +142,16 @@
 
         PSEINT Escrito
 	
-	Algoritmo sin_titulo
-		num<-0
-		Escribir "Ingrese un número: "
-		Leer num
-		Si num mod 2 == 0 Entonces
-			Escribir "El número ", num, " es par"
-		SiNo
-			Escribir "El número ", num, " es impar"
-		Fin Si
-	FinAlgoritmo
+			Algoritmo sin_titulo
+				num<-0
+				Escribir "Ingrese un número: "
+				Leer num
+				Si num mod 2 == 0 Entonces
+					Escribir "El número ", num, " es par"
+				SiNo
+					Escribir "El número ", num, " es impar"
+				Fin Si
+			FinAlgoritmo
 
         DIAGRAMA DE FLUJO
 	
