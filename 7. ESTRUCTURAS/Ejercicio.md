@@ -124,7 +124,56 @@
           Fin Si
         FinAlgoritmo
         
-        
+DIAGRAMA DE FLUJO CON FOR
+
+![Diagrama de Flujo Promedio con FOR](https://user-images.githubusercontent.com/113545645/192893443-b4269f3f-bf12-4995-877c-45d4c4e03713.jpg)
+
+PSEINT CON FOR
+
+	Algoritmo sin_titulo
+		cal1<-0
+		cal2<-0
+		cal3<-0
+		cal4<-0
+		prom<-0
+		i<-0
+		nombre<-" "
+		Para i<-0 Hasta 10 Con Paso 1 Hacer
+			Escribir "Ingrese el nombre del alumno: "
+			Leer nombre
+			Escribir "Ingrese la primera calificación: "
+			Leer cal1
+			Si cal1 > 0 y cal1 <= 10 Entonces
+		               Escribir "Ingrese la segunda calificación: "
+		               Leer cal2
+		               Si cal2 > 0 y cal2 <= 10 Entonces
+					Escribir "Ingrese la tercera calificación: "
+					Leer cal3
+					Si cal3 > 0 y cal3 <= 10 Entonces
+						Escribir "Ingrese la cuarta calificación: "
+						Leer cal4
+						Si cal4 > 0 y cal4 <= 10 Entonces
+							prom = (cal1 + cal2 + cal3 + cal4) / 4
+							Si prom >= 6 Entonces
+								Escribir "Felicidades por haber obtenido ", prom, " de promedio"
+							SiNo
+								Escribir "Has reprobado con ", prom, " de promedio"
+							Fin Si
+						SiNo
+							Escribir "Formato inválido, por favor, verifique"
+						Fin Si
+					SiNo
+						Escribir "Formato inválido. por favor, verifique"
+					Fin Si
+		    SiNo
+					Escribir "Formato inválido, por favor, verifique"
+		    Fin Si
+			SiNo
+		    Escribir "Formato inválido, por favor, verifique"
+			Fin Si
+		Fin Para
+	FinAlgoritmo
+
 3. Realizar un algoritmo y diagrama de flujo para un programa que solicite un número e indique si es par o impar.
 
         ALGORITMO
